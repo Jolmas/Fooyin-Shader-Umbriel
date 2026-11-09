@@ -1,0 +1,17 @@
+[Unit]
+Description=Umbriel audio bridge (cava to effect-audio v2)
+Documentation=https://docs.noctalia.dev/umbriel/ipc/
+PartOf=umbriel-session.target
+BindsTo=umbriel-session.target
+After=umbriel-session.target
+
+[Service]
+Type=simple
+ExecStart="@BIN@"
+Environment="UMBRIEL_CAVA_CONF=@CAVA_CONF@"
+# Environment="UMBRIEL_CAVA_BIN=/absolute/path/to/cava"
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=umbriel-session.target

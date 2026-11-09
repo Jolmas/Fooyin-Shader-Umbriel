@@ -1,0 +1,7 @@
+# 64-band standing-wave oscilloscope for the fooyin window border.
+# The shader is an audio-reactive border effect.
+[effects.preset.fooyin_osc]
+kind = "border"
+shader = "shader.glsl"
+animated = false
+padding = 24

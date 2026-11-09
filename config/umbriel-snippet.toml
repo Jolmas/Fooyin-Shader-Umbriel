@@ -1,0 +1,19 @@
+# Add this to ~/.config/umbriel/config.toml.
+# Replace @EFFECT_TOML@ with the absolute path printed by install.sh.
+#
+# If [include] already exists, append the path to its files array instead
+# of repeating the table.
+
+[include]
+files = ["@EFFECT_TOML@"]
+
+# Apply the effect only to fooyin.
+[[window_rule]]
+match.app_id = "^org[.]fooyin[.]fooyin$"
+border_effect = "fooyin_osc"
+
+# The border effect draws on the focused window by default. To keep it
+# visible while fooyin is unfocused, also add:
+#
+# [effects]
+# border_unfocused = true
