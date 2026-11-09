@@ -67,8 +67,9 @@ Paquetes orientativos:
 ## Instalación
 
 ```bash
-cp -r umbriel-fooyin-audio-border ~/git/
-cd ~/git/umbriel-fooyin-audio-border
+git clone https://github.com/Jolmas/Fooyin-Shader-Umbriel.git
+cd Fooyin-Shader-Umbriel
+chmod +x install.sh
 ./install.sh
 ```
 
