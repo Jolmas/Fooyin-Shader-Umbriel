@@ -220,7 +220,7 @@ valor máximo de banda.
 ## Desinstalar
 
 ```bash
-cd ~/git/umbriel-fooyin-audio-border
+cd ~/Fooyin-Shader-Umbriel
 ./uninstall.sh
 ```
 
