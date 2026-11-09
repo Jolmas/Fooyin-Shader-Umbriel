@@ -4,6 +4,8 @@ Paquete portable para reproducir desde cero un efecto de borde audio-reactivo
 en Umbriel, usando **cava** como analizador y un pequeño puente que habla el
 protocolo `effect-audio` v2 del compositor.
 
+![Capture](Screenshot1.png)
+
 No depende de DMS ni de Noctalia: solo de Umbriel, cava y Python 3.
 
 ```
